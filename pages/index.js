@@ -5,6 +5,7 @@ import Welcome from "../components/Welcome";
 import Quote from "../components/Quote";
 import ServicesSummary from "../components/ServicesSummary";
 import WhyUs from "../components/WhyUs";
+import WorksImagesSlider from '../components/WorksImagesSlider'
 
 // import AboutUs from "../components/AboutUs";
 // import CoreValues from "../components/CoreValues";
@@ -29,6 +30,7 @@ export default function Home() {
       <Quote />
       <ServicesSummary />
       <WhyUs />
+      <WorksImagesSlider />
 
       {/* <AboutUs />
       <CoreValues />

@@ -14,8 +14,8 @@ function Blog(props) {
 
   return (
     <PageLayout
-      pageTitle="HR Blog | Ignatius factor HR Blog"
-      pageDescription="Ignatius factor HR blog, HR Blog"
+      pageTitle="HR Blog | runjat builders Blog"
+      pageDescription="runjat builders blog, HR Blog"
     >
       <PageBanner
         image={{
@@ -38,7 +38,7 @@ function Blog(props) {
               </Heading>
             </header>
             <Heading lineHeight={2} size="md">
-              Ignatius Factor HR Knowledge Centre. Be inspired.
+              runjat builders Knowledge Centre. Be inspired.
             </Heading>
           </Flex>
         </Container>

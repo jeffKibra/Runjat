@@ -10,7 +10,7 @@ function Welcome() {
         <Flex  color="white" textAlign="center" direction="column">
           <header>
             {/* <Heading as="h1" size="xl" color="white">
-              IGNATIUS FACTOR HR CONSULTING
+              
             </Heading> */}
             {/* <Container> */}
               {/* <Heading mt="20px" >

@@ -11,16 +11,18 @@ import Card, { CardHeader, CardContent } from "./ui/Card";
 
 import values from "../constants/values";
 
-function AllValues() {
+function OurValues() {
   return (
-    <Box w="full" bg="#d3d3d3" id="values">
-      <Container as="section" mt="40px" pb="40px" pt="20px" maxW="container.lg">
+    <Box w="full" id="values"
+    bg="#d3d3d3" 
+    >
+      <Container as="section" px={4} mt="40px" pb="40px" pt="20px" maxW="container.lg">
         <header>
-          <Heading as="h2" size="lg" color="grey">
-            VALUES
+          <Heading as="h2" size="lg" color="#A70106">
+            OUR VALUES
           </Heading>
         </header>
-        <Box backgroundColor="teal" h="5px" w="100px" />
+        
         <Grid
           mt="16px"
           columnGap={6}
@@ -51,4 +53,4 @@ function AllValues() {
   );
 }
 
-export default AllValues;
+export default OurValues;

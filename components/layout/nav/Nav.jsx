@@ -8,7 +8,7 @@ import MobileMenu from "./MobileMenu";
 import { HOME } from "../../../constants/routes";
 
 //logo image
-// import logoImage from "../../../public/statics/images/ignatiusLogo.png";
+// import logoImage from "../../../public/statics/images/runjatLogo.png";
 
 function Nav() {
   return (
@@ -33,7 +33,7 @@ function Nav() {
         {/* <Link href={HOME} passHref>
           <Image
             src={logoImage}
-            alt="ignatius factor hr logo"
+            alt="runjat builders logo"
             height={3508}
             width={549}
           />

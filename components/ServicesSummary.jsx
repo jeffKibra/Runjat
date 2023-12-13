@@ -21,9 +21,9 @@ import { OUR_SERVICES } from "../constants/routes";
 
 function ServicesSummary() {
   return (
-    <Container maxW="container.lg" my="50px" direction="column">
+    <Container maxW="container.lg" mb="50px" px={8} direction="column">
       
-      <Heading as="h2" size="lg" color="#A70106" textAlign='center' mb={8}>
+      <Heading as="h2"  color="#A70106"  mb={8}>
         WHAT WE DO
       </Heading>
       {/* <Flex mt="5px" backgroundColor="cyan" h="5px" w="180px" /> */}

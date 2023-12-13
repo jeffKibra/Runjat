@@ -9,7 +9,7 @@ import image from "../public/statics/images/black-phone.jpg";
 function GetInTouch() {
   return (
     <PageLayout
-      pageTitle="contact us | HR services in kenya - Ignatius hr contacts"
+      pageTitle="contact us | HR services in kenya - runjat hr contacts"
       pageDescription="call us, email us, send us a message and we will get back to you. Connect with us in facebook, twitter, linkedin."
     >
       <PageBanner

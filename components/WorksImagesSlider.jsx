@@ -1,55 +1,40 @@
-import {Component} from 'react'
 import {
   Container,
-  Flex,
   Heading,
-  Text,
-  UnorderedList,
-  ListItem,
-  Box
+  Box,
+  useMediaQuery
 } from "@chakra-ui/react";
 //
 import {Carousel} from 'react-responsive-carousel'
 //
 import Image from 'next/image'
-//
 
 // Import css files
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-// import Card, { CardContent, CardHeader } from "./ui/Card";
-
-
 //
 import images from '../constants/worksImages'
 
-class WorksImagesSlider extends Component {
-  constructor(){
-    super()
-    this.state={
-      images
-    }
-  }
+function WorksImagesSlider (props) {
 
-  sliders(){
- return 
-  }
+  const [isMediumAndAbove]=useMediaQuery("(min-width: 768px)", {ssr:true, fallback:false})
+// console.log({isMediumAndAbove})
+ 
 
-  render(){
     const settings={
       centerMode: true,
-      centerSlidePercentage:40,
+      centerSlidePercentage:isMediumAndAbove ? 45 : 80,
       autoplay: true,
       interval:3000,
       // transitionTime: 4000,
       infiniteLoop:true,
       showArrows:true,
-      dynamicHeight:false
+      dynamicHeight:false,
+      showThumbs:false
     }
 
  return (
   
-    <Container minW="container.lg" mb="40px" pt="40px">
+    <Container maxW="container.lg" px={8} mb="40px" pt="40px">
       <Heading  color="#A70106" pb={4}>
         OUR WORKS
       </Heading>
@@ -68,7 +53,7 @@ class WorksImagesSlider extends Component {
 
     </Container>
   );
-  }
+  
  
 }
 

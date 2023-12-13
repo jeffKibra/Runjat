@@ -66,29 +66,7 @@ function AboutUs() {
 
 export default AboutUs;
 
-// const us = [
-//   {
-//     title: "OUR PURPOSE",
-//     image: bearingImage,
-//     alt: "bearing",
-//     content:
-//       "To help our business partners achieve excellence through a motivated workforce.",
-//   },
-//   {
-//     title: "OUR MISSION",
-//     image: cycleImage,
-//     alt: "metamorphosis cycle",
-//     content:
-//       "Avail ourselves to our business partners by offering timely and quality professional help that is capable of supporting its strategic mission and objectives",
-//   },
-//   {
-//     title: "OUR VISION",
-//     image: wheelImage,
-//     alt: "captains wheel",
-//     content:
-//       "To be a reliable HR consulting Firm through helping our business partners achieve their strategic mission through an empowered workforce.",
-//   },
-// ];
+
 
 function ImageContainer({ children }) {
   return <Flex width="70%">{children}</Flex>;

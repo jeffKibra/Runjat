@@ -6,10 +6,10 @@ import Quote from "../components/Quote";
 import ServicesSummary from "../components/ServicesSummary";
 import WhyUs from "../components/WhyUs";
 import WorksImagesSlider from '../components/WorksImagesSlider'
+import GetInTouchSummary from "../components/GetInTouchSummary";
 
 // import AboutUs from "../components/AboutUs";
 // import CoreValues from "../components/CoreValues";
-// import GetInTouchSummary from "../components/GetInTouchSummary";
 //image
 // import image from "../public/statics/images/hr-process.png";
 // import image from "../public/statics/images/many_pipes.jpg";
@@ -28,13 +28,15 @@ export default function Home() {
         <Welcome />
       </PageBanner>
       <Quote />
-      <ServicesSummary />
       <WhyUs />
+      <ServicesSummary />
+      
       <WorksImagesSlider />
+      <GetInTouchSummary /> 
 
       {/* <AboutUs />
       <CoreValues />
-      <GetInTouchSummary /> */}
+      */}
     </PageLayout>
   );
 }

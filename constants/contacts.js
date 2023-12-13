@@ -4,8 +4,8 @@ const contacts = {
   phone: "+254 723 597 701 / 0721 908 792",
   email: "example@email.com",
   facebook: "",
-  // twitter: "https://twitter.com/ignatius_factor",
-  // linkedIn: "https://linkedin.com/in/ignatius-factor-884462236/",
+  // twitter: "https://twitter.com/runjat_builders",
+  // linkedIn: "https://linkedin.com/in/runjat-factor-884462236/",
 };
 
 export default contacts;

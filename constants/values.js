@@ -1,72 +1,39 @@
-const values = [
-  {
-    title: "PERFORMANCE BASED",
-    content:
-      "Every employee should be helped to set and achieve his or her organizational goals. This way delivering results. To ensure every is on tract, this can be done either quarterly, bi annually or annually.",
-  },
-  {
-    title: "OPEN COMMUNICATION AND FEEDBACK",
-    content:
-      "It is crucial for an organization to build a platform that nurtures open and honest communication and feedback. This can be done as a group or an individual. ",
-  },
-  {
-    title: "TALENT ACQUISITION AND RETENTION",
-    content:
-      "An organization should seek to acquire the best talent in the labor market and put efforts to retain it. ",
-  },
-  {
-    title: "BUSINESS KNOWLEDGE",
-    content:
-      "Unless HR understands the nature of business, it will be fruitless to solutions that are not angered to business",
-  },
-  {
-    title: "DIGNITY",
-    content: "HR should create an environment where all staff feel dignified",
-  },
-  {
-    title: "RESPECT",
-    content: "HR should create an environment where all staff feel respected",
-  },
-  {
-    title: "INTEGRITY",
-    content:
-      "This does not only touch on employee’s dignity but also on organization’s dignity. It encompasses both individual staff integrity and that of the organization",
-  },
-  {
-    title: "LEARNING",
-    content:
-      "HR should foster a culture of continuous learning particularly on current HR knowledge (compliance laws and regulations, employment laws, among others).  This should be reflected through organization documents such as HR policies. ",
-  },
-  {
-    title: "AMBASSADOR",
-    content:
-      "All employee should be developed to own up the organization and as such be good ambassadors. Ones that promotes the ethos of the organization",
-  },
-  {
-    title: "CUSTOMER SERVICE",
-    content:
-      "whether in service industry or production business, through HR trainings and development endeavors, every staff should be made aware that customer is key for the business, hence be treated with respect particularly in listening to him or her. ",
-  },
-  {
-    title: "FINANCIAL COMMUNICATION",
-    content:
-      "As much HR department is different from Account department, collaborative effort should be put in place to clearly communicate to staff issues related to finance. And where clarity is sought, it should be given. ",
-  },
-  {
-    title: "TRUST",
-    content:
-      "Any effective HR is one that has earned trust from staff. This is done through continuous engagement and being true to what you say and promise.",
-  },
-  {
-    title: "SOCIAL RESPONSIBILITY",
-    content:
-      "Doesn’t matter if it is an individual or organization, whether it is corporate or a start-up, any business can be a force for good by giving back to the society. ",
-  },
-  {
-    title: "TAKING CARE OF THREE (3) Ps",
-    content:
-      "HR should foster a culture of helping the organization particularly the staff understand the need to take care of profit, planet and people. Most important, to strike the balance of how to put people and planet before profit.",
-  },
-];
+const values=[
+    {
+        title:"Entrepreneurial Spirit and Management Rigour",
+        content:"To ensure continuous development of our staff, management and business at large, we encourage an entrepreneurial approach through the decentralisation of decision-making within a clearly defined policy framework. This approach offers “local” managers and their teams, the opportunity to take responsibility for deciding how to achieve their business targets within the parameters the company has set as its basis for corporate governance."
+    },
+    {
+        title:"Health and Safety",
+        content:"We pursue an absolute goal of causing no harm to our employees or those affected by our activities. We therefore implement effective health and safety management systems, encourage and promote the adoption of safe working practices and engage our people and business partners in driving continuous performance improvement. In all our workshops and sites, we ensure that supervisors and workers put on safety gear to avoid injuries and also to promote industrial safety regulations and standards."
+    },
+    {
+        title:"Openness and Transparency",
+        content:"Openness and transparency are values underpinning all aspects of our external and internal relationships. We build trust in clients, shareholders and other interested parties through the provision of accurate and reliable information. We foster teamwork and encourage synergies across the company through the sharing of knowledge and the best practices."
+    }, 
+    {
+        title:"Environmental Consciousnes",
+        content:"We pursue an absolute goal of causing no harm to the environment. We implement effective environmental management system, encourage and promote the adoption of environmentally sensitive practices and engage our people and business partners in driving continuous performance improvement."
+    },
+    {
+        title:"Ethical Business Conduct",
+        content:"Our relationships are underpinned by our reputation for being reliable, trustworthy and fair. We apply consistently high standards of ethics in all we do acting in way that meet or exceed legal standards, meeting our contractual commitment, avoiding conflicts of interest, keeping company data accurate, confidential and secure and abstaining from all forms of unethical practices."
+    },
+    {
+        title:"Cultural Diversity in the Workplace",
+        content:"We value the cultural diversity of our people and respect their rights by ensuring that we are an equal opportunity employer and non-discrimination in the work place whilst upholding the rule of law in the various jurisdictions we operate in. Our staff members are afforded a fair opportunity to respond to actions and decisions affecting them in the workplace and to confidentiality relating to personal data held by the company."
+    },
+    {
+        title:"Community Support",
+        content:"We will support the local and regional communities in which we work. We engage in consultation on matters of importance to them connected with our activities and seek to contribute to their economic and social well being, within the framework of local laws and in context with the company's roles and responsibilities."
+    },
+    {
+        title:"Innovation",
+        content:"Professionalism underpins all our activities. In addition we demonstrate a dynamic and co-operative approach, helping customers in their search for new solutions and methods of working. We believe innovation and creativity are essential for the future of the company by enhancing our capacity for growth and progress."
+    }
+]
 
-export default values;
+export default values
+
+
+

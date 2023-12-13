@@ -9,7 +9,7 @@ import image from "../public/statics/images/pipings_and_house_plan.jpg";
 function OurServices() {
   return (
     <PageLayout
-      pageTitle="HR Services | Ignatius factor HR services"
+      pageTitle="HR Services | runjat builders services"
       pageDescription="Recruitment and selection, professional health and safety, compensation benefits and payrolls, labour laws, honest appraisals and feedback,  INDUCTION PERIOD AND CONFIGURING PRESENT AND FUTURE CONDITION OF THE EMPLOYEE, "
     >
       <PageBanner

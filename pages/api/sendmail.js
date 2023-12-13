@@ -14,12 +14,12 @@ export default async function handler(req, res) {
   const html = template({ name, email, subject, message });
 
   const transporter = nodemailer.createTransport({
-    host: "mail.ignatiusfactorhrconsulting.com",
+    host: "mail.runjatbuilders.com",
     port: 587,
     secure: false, // upgrade later with STARTTLS
     auth: {
-      user: "social@ignatiusfactorhrconsulting.com",
-      pass: "ignatius@Factor",
+      user: "social@runjatbuilders.com",
+      pass: "runjat@Factor",
     },
     tls: {
       rejectUnauthorized: false,
@@ -27,8 +27,8 @@ export default async function handler(req, res) {
   });
 
   const options = {
-    from: "social@ignatiusfactorhrconsulting.com",
-    to: "info@ignatiusfactorhrconsulting.com",
+    from: "social@runjatbuilders.com",
+    to: "info@runjatbuilders.com",
     subject: "Leads",
     html,
   };

@@ -2,17 +2,17 @@ import { Box, Container, Flex, Heading, Text } from "@chakra-ui/react";
 
 import PageLayout from "../components/layout/PageLayout";
 import PageBanner from "../components/layout/PageBanner";
-import Values from "../components/Values";
+import Mission from "../components/Mission";
 // import ValuesSlider from "../components/ValuesSlider";
-import AllValues from "../components/AllValues";
+import OurValues from "../components/OurValues";
 //image
-import image from "../public/statics/images/many_pipes.jpg";
+import image from "../public/statics/images/head-questions.png";
 
 function WhoWeAre() {
   return (
     <PageLayout
-      pageTitle="About us | necessary values for employees - Ignatius factor hr"
-      pageDescription="A HR company focused on instilling the right values to your workforce, integrity, open door policy, customer service, taking care of the three (3) Ps"
+      pageTitle="About us | a company based on values - Runjat Builders"
+      pageDescription="A company guided by values in its daily activities."
     >
       <PageBanner
         image={{
@@ -26,23 +26,25 @@ function WhoWeAre() {
           w="full"
           h="full"
           alignItems="center"
+          // justifyContent='center'
         >
-          <Flex mt="150px" direction="column">
+          <Flex  direction="column">
             <header>
-              <Heading as="h1" size="xl" mb="16px">
-                IGNATIUS FACTOR HR CONSULTING
+              <Heading as="h1" size="xl" mb="16px" >
+                ABOUT US
               </Heading>
             </header>
             <Text fontSize="xl">
-              A HR consulting company focused on values!
+              In providing our services we endeavour to deliver beyond client
+              expectations and satisfy our clients whilst rewarding all the stakeholders
             </Text>
           </Flex>
         </Container>
       </PageBanner>
       {/* <Quote /> */}
-      <Values />
+      <Mission />
       {/* <ValuesSlider /> */}
-      <AllValues />
+      <OurValues />
     </PageLayout>
   );
 }

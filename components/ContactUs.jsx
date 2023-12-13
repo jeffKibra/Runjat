@@ -33,19 +33,19 @@ function ContactUs(props) {
         <Grid columnGap={6} templateColumns="repeat(12, 1fr)">
           <GridItem mb="40px" colSpan={[12, 6]}>
             <header>
-              <Heading as="h2" size="lg" mb="8px" color="white">
+              <Heading as="h2"  pb={3} color="white">
                 GET IN TOUCH
               </Heading>
             </header>
 
-            <Box h="5px" w="150px" bg="blue" />
+            {/* <Box h="5px" w="150px" bg="blue" /> */}
             <address>
               <VStack mt="24px" spacing={4} color="white">
                 {addresses.map((obj, i) => {
                   const { content, title, image } = obj;
 
                   return (
-                    <Flex w="full" key={i}>
+                    <Flex w="full" key={i} alignItems='center'>
                       <ImageContainer>
                         <Image
                           src={image}

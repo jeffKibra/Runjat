@@ -19,15 +19,15 @@ function PageLayout(props) {
         <meta property="og:description" content={pageDescription} />
         <meta
           property="og:url"
-          content="https://ignatiusfactorhrconsulting.com"
+          content="https://runjatbuilders.com"
         />
-        <meta property="og:site_name" content="ignatius factor HR consulting" />
+        <meta property="og:site_name" content="runjat builders and mechanical engineers" />
         <meta name="twitter:title" content={pageTitle} />
 
         <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:site" content="@ignatius_factor" />
-        <meta name="twitter:creator" content="@ignatius_factor" />
-
+        <meta name="twitter:site" content="@runjat_builders" />
+        <meta name="twitter:creator" content="@runjat_builders" />
+{/* 
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -47,7 +47,7 @@ function PageLayout(props) {
         />
         <link rel="manifest" href="/manifest.json"></link>
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <ScrollButton />
